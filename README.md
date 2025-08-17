@@ -1,3 +1,5 @@
+![CI](https://github.com/ngkenzy/<repo>/actions/workflows/ci.yml/badge.svg)
+
 # Self-Healing Data Path (BGP + BFD + Failover) — Portfolio Project
 
 **Story:** Engineer a resilient data path. When a link fails, traffic reconverges in <300 ms via BFD; throughput and latency stay within SLOs. Includes tests, ADRs, and a short demo.
