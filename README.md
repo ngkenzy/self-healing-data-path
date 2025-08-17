@@ -1,4 +1,4 @@
-[![CI](https://github.com/ngkenzy/self-healing-data-path/actions/workflows/ci.yml/badge.svg)](https://github.com/ngkenzy/self-healing-data-path/actions)
+[![CI](https://github.com/ngkenzy/self-healing-data-path/actions/workflows/ci.yml/badge.svg)](https://github.com/ngkenzy/self-healing-data-path/actions) 
 
 # Self-Healing Data Path (BGP + BFD + Failover) — Portfolio Project
 
