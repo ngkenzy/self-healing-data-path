@@ -1,0 +1,19 @@
+name: diamond
+topology:
+  kinds:
+    linux:
+      image: ghcr.io/srl-labs/netlab:latest
+  nodes:
+    rtrA: { kind: linux }
+    rtrB: { kind: linux }
+    rtrC: { kind: linux }
+    rtrD: { kind: linux }
+    client: { kind: linux, image: ghcr.io/srl-labs/nettools:latest }
+    sink:   { kind: linux, image: ghcr.io/srl-labs/nettools:latest }
+  links:
+    - endpoints: ["rtrA:eth1","rtrB:eth1"]
+    - endpoints: ["rtrA:eth2","rtrC:eth1"]
+    - endpoints: ["rtrB:eth2","rtrD:eth1"]
+    - endpoints: ["rtrC:eth2","rtrD:eth2"]
+    - endpoints: ["client:eth1","rtrA:eth3"]
+    - endpoints: ["sink:eth1","rtrD:eth3"]
