@@ -59,5 +59,5 @@ Artifacts saved to `results/` as CSV/JSON, plus charts (you can plot externally)
 
 > NOTE: Images here are sane defaults. If you get package errors inside nodes, switch images in the clab file (e.g., use `frrouting/frr` for routers) and re-run configure scripts.
 
-## Resume bullet (example)
+
 - Engineered BGP+BFD failover in a virtual WAN: reconvergence **< 300 ms** under single-link failure; maintained ≥90% throughput; authored ADRs, tests, and runbook.
