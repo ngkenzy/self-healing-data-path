@@ -56,10 +56,11 @@ Artifacts saved to `results/` as CSV/JSON, plus charts (you can plot externally)
 $ ./scripts/inject_failure.sh rtrB eth1 5
 [BFD] Link down! Reconvergence time: 242ms
 Failover throughput: 920 Mbps (96.8% of baseline)
-
+```
 ---
 
 ## Quick Validation Workflow
+
 
 1. **Deploy the topology**  
    ```bash
