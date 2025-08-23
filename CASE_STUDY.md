@@ -1,4 +1,4 @@
-# Case Study — Self-Healing Data Path
+# Case Study for Self-Healing Data Path
 
 ## Problem
 In WAN environments, link failures can cause service disruption if routing protocols take too long to reconverge. Traditional BGP convergence may take seconds — unacceptable for low-latency workloads. The challenge was to engineer a resilient data path that self-heals in under 300 ms.
